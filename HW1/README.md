@@ -1,3 +1,9 @@
-# Homework 1
-Make two or more functions creating the continuation of the story.
+# Домашнее задание1
+
+Нужно написать 2 или более функции:
+
+def step2_umbrella()
+def step2_no_umbrella()
+
+, в которых описать дальнейшие приключения утки-маляра для 2х разных сценариев.
 
