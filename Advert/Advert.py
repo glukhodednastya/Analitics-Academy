@@ -79,4 +79,4 @@ if __name__ == "__main__":
             "price": -1
         }"""
     advert_test3 = Advert(json.loads(test3))
-    #print(advert_test3)
+    print(advert_test3)
