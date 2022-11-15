@@ -1,0 +1,13 @@
+============================================================= test session starts =============================================================
+platform win32 -- Python 3.9.13, pytest-7.2.0, pluggy-1.0.0 -- C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\user\Desktop\tests\issue-04
+collected 5 items
+
+issue-04.py::test_empty_list PASSED                                                                                                      [ 20%]
+issue-04.py::test_cities_list PASSED                                                                                                     [ 40%]
+issue-04.py::test_cities_not_eq PASSED                                                                                                   [ 60%]
+issue-04.py::test_cities_not_in PASSED                                                                                                   [ 80%]
+issue-04.py::test_empty_input PASSED                                                                                                     [100%]
+
+============================================================== 5 passed in 0.04s ==============================================================
