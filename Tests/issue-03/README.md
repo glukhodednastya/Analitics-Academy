@@ -3,4 +3,4 @@
 Напишите на неё тесты с использованием ```unittest```.     
 
 Для проверки тестов введите команду:   
-```python3 -m unittest -v issue-03.py```
+```python -m unittest -v issue-03.py```

@@ -35,12 +35,14 @@ def test_incorrect_sep():
         with pytest.raises(ValueError):
             what_is_year_now()
 
+
 def test_incorrect_format():
     """Некорректный формат даты."""
     date = StringIO('{"currentDateTime": "5.11.22"}')
     with patch.object(urllib.request, "urlopen", return_value=date):
         with pytest.raises(ValueError):
             what_is_year_now()
+
 
 def test_invalid_data():
     """На вход подана не дата"""

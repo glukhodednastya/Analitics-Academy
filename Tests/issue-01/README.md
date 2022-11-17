@@ -3,4 +3,4 @@
 Напишите на неё тесты с использование ```doctest```.   
 
 Для проверки тестов введите команду:   
-```python3 -m doctest -v issue-01```
+```python -m doctest -v issue-01.py```

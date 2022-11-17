@@ -34,7 +34,8 @@ class TestOneHotEncoder(unittest.TestCase):
         self.assertNotIn('Paris', transformed)
 
     def test_empty_input(self):
-        self.assertRaises(TypeError, fit_transform)
+        with self.assertRaises(TypeError):
+            fit_transform()
 
 
 if __name__ == '__main__':

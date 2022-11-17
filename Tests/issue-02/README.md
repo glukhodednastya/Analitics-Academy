@@ -3,4 +3,4 @@
 Напишите на неё параметрический тест, используя ```pytest.mark.parametrize```.     
 
 Для проверки тестов введите команду:   
-```python3 -m pytest -v issue-02.py```
+```python -m pytest -v issue-02.py```

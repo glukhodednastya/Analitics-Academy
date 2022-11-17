@@ -5,6 +5,7 @@ import pytest
 def test_empty_list():
     assert fit_transform([]) == []
 
+
 def test_cities_list():
     cities = ['Moscow', 'New York', 'Moscow', 'London']
     exp_transformed_cities = [
@@ -14,6 +15,7 @@ def test_cities_list():
         ('London', [1, 0, 0]),
     ]
     assert fit_transform(cities) == exp_transformed_cities
+
 
 def test_cities_not_eq():
     cities = ['Moscow', 'New York', 'Moscow', 'London']
@@ -25,9 +27,11 @@ def test_cities_not_eq():
     ]
     assert fit_transform(cities) != exp_transformed_cities
 
+
 def test_cities_not_in():
     cities = ['Moscow', 'New York', 'Moscow', 'London']
     assert 'Paris' not in fit_transform(cities)
+
 
 def test_empty_input():
     with pytest.raises(TypeError):
