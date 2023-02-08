@@ -1,0 +1,13 @@
+============================================================= test session starts =============================================================
+platform win32 -- Python 3.9.13, pytest-7.2.0, pluggy-1.0.0 -- C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\user\Desktop\tests\issue-05
+collected 5 items
+
+issue-05.py::test_first_format PASSED                                                                                                    [ 20%]
+issue-05.py::test_second_format PASSED                                                                                                   [ 40%]
+issue-05.py::test_incorrect_sep PASSED                                                                                                   [ 60%]
+issue-05.py::test_incorrect_format PASSED                                                                                                [ 80%]
+issue-05.py::test_invalid_data PASSED                                                                                                    [100%]
+
+============================================================== 5 passed in 0.18s ==============================================================

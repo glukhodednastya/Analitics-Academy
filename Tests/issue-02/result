@@ -1,0 +1,12 @@
+============================================================= test session starts =============================================================
+platform win32 -- Python 3.9.13, pytest-7.2.0, pluggy-1.0.0 -- C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\user\Desktop\tests\issue-02
+collected 4 items
+
+issue-02.py::test_decode[... --- ...-SOS] PASSED                                                                                         [ 25%]
+issue-02.py::test_decode[.- ...- .. - ----AVITO] PASSED                                                                                  [ 50%]
+issue-02.py::test_decode[----- ----- ------000] PASSED                                                                                   [ 75%]
+issue-02.py::test_decode[-....- ..--.. -....---?-] PASSED                                                                                [100%]
+
+============================================================== 4 passed in 0.06s ==============================================================
