@@ -1,0 +1,18 @@
+============================================================= test session starts =============================================================
+platform win32 -- Python 3.9.13, pytest-7.2.0, pluggy-1.0.0 -- C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\user\Desktop\final_project
+collected 11 items
+
+tests.py::test_dict PASSED                                                                                                               [  9%]
+tests.py::test_eq PASSED                                                                                                                 [ 18%]
+tests.py::test_bake PASSED                                                                                                               [ 27%]
+tests.py::test_deliver PASSED                                                                                                            [ 36%]
+tests.py::test_pickup PASSED                                                                                                             [ 45%]
+tests.py::test_bake_with_decorator PASSED                                                                                                [ 54%]
+tests.py::test_deliver_with_decorator PASSED                                                                                             [ 63%]
+tests.py::test_pickup_with_decorator PASSED                                                                                              [ 72%]
+tests.py::test_order_without_delivery PASSED                                                                                             [ 90%]
+tests.py::test_menu PASSED                                                                                                               [100%]
+
+============================================================= 11 passed in 0.18s ==============================================================
